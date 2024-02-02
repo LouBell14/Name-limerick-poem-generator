@@ -10,7 +10,7 @@ function displayPoem(response) {
 function generateLimerick(event) {
   event.preventDefault();
 
-  let instructionsInput = document.querySelector("#user-instructions");
+  let instructionsInput = document.querySelector("#instructions");
   let apiKey = "aft4c703eb4e588f70o3063bb1c00a8b";
   let context =
     "You are a leprechaun and that loves to write short, silly limericks using people's names in the rhyme. Your mission is to generate a limerick in basic HTML using the name typed into the <form>. Separate each line with a <br />. Make sure to follow the user instructions. Do not include a title for the limerick. Sign the poem with 'SheCodes AI' and a ☘️ in a <strong> element at the end of the poem";
