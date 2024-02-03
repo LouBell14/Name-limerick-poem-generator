@@ -1,5 +1,5 @@
 body {
-  background-color: #4aa683;
+  background-color: #05281b;
   font-family: Helvetica, Arial, sans-serif;
   background-image: url(../images/shamrock.jpg);
   background-repeat: no-repeat;
@@ -11,7 +11,10 @@ a {
 }
 .container {
   margin: 120px auto;
-  max-width: 600px;
+  max-width: 800px;
+  background-color: rgb(7, 24, 0, 0.6);
+  border-radius: 10px;
+  display: block;
 }
 
 header {
@@ -24,15 +27,20 @@ h1 {
   line-height: 1.5;
   color: white;
   text-align: center;
+  margin: 0;
+  padding: 2%;
 }
 
 .form-container {
   background-color: white;
   padding: 15px 20px;
+  max-width: 600px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100 0.08);
   border-radius: 10px;
   margin-bottom: 30px;
   color: rgb(2, 2, 21);
+  display: block;
+  margin: 20px auto;
 }
 
 form {
@@ -48,7 +56,7 @@ form {
 
 .nameprompt {
   padding: 16px;
-  border: 1px solid green;
+  border: 1px solid rgb(7, 24, 0);
   width: 80%;
   font-size: 16px;
   line-height: 20px;
@@ -57,8 +65,8 @@ form {
 }
 .submit-button {
   margin-left: 10px;
-  background: green;
-  color: bisque;
+  background: rgb(7, 24, 0, 0.9);
+  color: white;
   border: none;
   width: 150px;
   border-radius: 50px;
@@ -73,6 +81,9 @@ form {
   border-left: 3px solid bisque;
   box-shadow: 0px 4px 30px rgba(39, 33, 66 0.03);
   border-radius: 5px;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
 }
 
 .poem strong {
@@ -82,7 +93,8 @@ form {
 footer {
   text-align: center;
   font-size: 13px;
-  margin-top: 30px;
+  padding-bottom: 3%;
+  margin: 0;
   color: #ffff;
 }
 .generating {
