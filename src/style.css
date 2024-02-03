@@ -1,11 +1,7 @@
 body {
-  background: linear-gradient(
-    75.7deg,
-    rgb(34, 126, 34) 3.8%,
-    rgb(99, 162, 17) 87.1%
-  );
+  background-color: #4aa683;
   font-family: Helvetica, Arial, sans-serif;
-  background-image: url(./images/shamrock.jpg);
+  background-image: url(../images/shamrock.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -75,4 +71,5 @@ footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
+  color: #ffff;
 }
