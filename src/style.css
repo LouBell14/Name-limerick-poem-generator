@@ -5,6 +5,10 @@ body {
     rgb(99, 162, 17) 87.1%
   );
   font-family: Helvetica, Arial, sans-serif;
+  background-image: url(./images/shamrock.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 a {
   color: bisque;
